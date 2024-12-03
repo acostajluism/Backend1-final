@@ -1,0 +1,30 @@
+{
+  "name": "ecommerce-backend",
+  "version": "1.0.0",
+  "description": "Backend para la gestión de productos y carritos de una tienda e-commerce.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecommerce",
+    "backend",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Jose Luis Acosta",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "handlebars": "^4.7.7",
+    "mongoose": "^8.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
